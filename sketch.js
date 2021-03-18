@@ -1,12 +1,11 @@
-
 function preload() {
   background1 = loadImage("Images/backgroundImage1.jpg")
-  startImage = loadImage("images/StartButton.png")
+  startButtonImage = loadImage("images/StartButton.png")
 }
 function setup() {
   createCanvas(1280,610);
   start = createSprite(900, 270,)
-  start.addImage(startImage)
+  start.addImage(startButtonImage)
   start.scale = 0.7
 
 }
